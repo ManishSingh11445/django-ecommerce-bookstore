@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+ django:
+  build:
+  container_name: django
+  image: bookstore:2.0
+  ports:
+   - 8000:8000
